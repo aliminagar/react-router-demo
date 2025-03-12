@@ -1,6 +1,7 @@
 @font-face {
-  src: url(./fonts/Roboto.woff);
   font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.woff") format("woff");
+  /* other properties */
 }
 
 *,
