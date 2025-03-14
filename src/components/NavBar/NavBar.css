@@ -1,10 +1,9 @@
 .menu {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  align-items: center;
+  margin-right: 20px; /* Optional: adds some spacing from the right edge */
 }
-
 .menu__link {
   color: #9cbbff;
   text-decoration: none;
