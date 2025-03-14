@@ -1,0 +1,31 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* Remove the absolute positioning */
+  position: static;
+}
+
+.menu__link {
+  color: #9cbbff;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 30px;
+  margin-right: 0;
+  margin-bottom: 5px; /* Add spacing between vertical links */
+}
+
+.menu__link:last-of-type {
+  margin-bottom: 0;
+}
+
+.menu__link_active {
+  color: #437dff;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 950px) {
+  .menu {
+    align-items: flex-start;
+  }
+}
